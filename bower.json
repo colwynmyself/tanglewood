@@ -1,0 +1,20 @@
+{
+  "name": "colwyn.me",
+  "description": "My personal website",
+  "main": "server/dist/main.js",
+  "authors": [
+    "Colwyn Fritze-Moor <colwyn.myself@gmail.com>"
+  ],
+  "license": "CC-BY-4.0",
+  "homepage": "https://github.com/colwynmyself/colwyn.me",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "components-font-awesome": "^4.7.0"
+  }
+}
