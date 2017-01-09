@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "alwaysStrict": true,
+        "baseUrl": "ts/",
+        "diagnostics": true,
+        "forceConsistentCasingInFileNames": true,
+        "listEmittedFiles": true,
+        "listFiles": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "release/",
+        "pretty": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "target": "ES6",
+        "types": [
+            "node"
+        ]
+    }
+}

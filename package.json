@@ -5,8 +5,8 @@
   "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/main.js",
-    "build": "gulp"
+    "start": "node release/main.js",
+    "build": "gulp && tsc"
   },
   "repository": {
     "type": "git",
@@ -19,10 +19,12 @@
   },
   "homepage": "https://github.com/colwynmyself/tanglewood#readme",
   "dependencies": {
+    "@types/node": "^6.0.58",
     "babel-runtime": "^6.18.0",
     "chalk": "^1.1.3",
     "debug": "^2.3.3",
     "koa": "^1.2.4",
+    "koa-better-body": "^3.0.2",
     "koa-body": "^1.6.0",
     "koa-handlebars": "^1.0.0",
     "koa-logger": "^1.3.0",
